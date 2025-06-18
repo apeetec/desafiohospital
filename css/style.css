@@ -1,0 +1,17 @@
+*{font-family: "Montserrat", sans-serif;}
+:root {
+  --black-dark: #040f0f;
+  --green-dark: #248232;
+  --green-light: #2ba84a;
+  --gray-dark: #2d3a3a;
+  --white-soft: #fcfffc;
+}
+body{display: flex;min-height: 100vh;flex-direction: column;background-color: var(--white-soft)!important;}
+main{flex: 1 0 auto;}
+nav{background-color: var(--green-dark)!important;}
+.login{max-width: 680px;width: 100%;margin: 0 auto;padding: 0 2rem;}
+.login .acess{background-color: var(--green-light);color: var(--white-soft);transition: ease-in-out .8s;width: 100%;justify-content: center;}
+.login .acess:hover{background-color: var(--green-dark);}
+.login .forgot{justify-content: center;background-color: var(--white-soft);color: var(--black-dark);}
+.login .btn{width: 100%;text-align: center;display: inline-block;}
+.login .signup{background-color: var(--white-soft);color: var(--black-dark);}
